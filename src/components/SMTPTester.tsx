@@ -43,7 +43,7 @@ export default function SMTPTester() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/send-test-email",
+        "/api/send-test-email",
         form
       );
 
